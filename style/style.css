@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googeapis.com/css?family=Poppins:400,500,700'); */
+
+html, body {
+    height:100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.navbar {
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.carousel-inner img {
+    width: 50;
+    height: 50%;
+}
+
+.carousel-caption h5 {
+    font-size: 300%;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+*/
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.instagram-connect {
+    color : rgb(199, 63, 115);
+
+}
+.twitter-connect {
+    color : cornflowerblue;
+}
+.reddit-connect {
+    color : tomato;
+
+}
+.youtube-connect {
+    color : red;
+
+}
+
+.instagram-connect :hover, 
+.twitter-connect :hover, 
+.reddit-connect :hover, 
+.youtube-connect :hover {
+    color : green;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+/* about page */
+.my-pic {
+    width: 100px;
+    margin: 40px auto -30px;
+    display: block;
+    position: relative;
+    top: -30px;
+
+}
